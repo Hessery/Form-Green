@@ -8,6 +8,7 @@ function net_host_data_recieve() {
 		case net_username:				net_server_username();			break;
 		case net_order:					net_server_order();				break;
 		case net_game_object_create:	net_server_object_create();		break;
+		case net_game_object_destory:	net_server_object_destory();	break;
 		case net_rally_set:				net_server_rally();				break;
 		
 	}

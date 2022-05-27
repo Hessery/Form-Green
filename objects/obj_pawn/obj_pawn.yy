@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_pawn",
+    "path": "sprites/spr_pawn/spr_pawn.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_game_object",
-    "path": "objects/obj_game_object/obj_game_object.yy",
+    "name": "obj_unit_military",
+    "path": "objects/obj_unit_military/obj_unit_military.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,16 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buildings",
-    "path": "folders/Objects/Game Objects/Buildings.yy",
+    "name": "Military",
+    "path": "folders/Objects/Game Objects/Units/Military.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building",
+  "name": "obj_pawn",
   "tags": [],
   "resourceType": "GMObject",
 }

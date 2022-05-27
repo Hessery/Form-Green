@@ -35,24 +35,13 @@ if (key_check_released("mouse primary") && mouse_on_map()) {
 		
 }
 
-if (global.net_role = net_role_host) {
-	
-	if (keyboard_check_pressed(vk_space)) {
-		
-		for (var i = 0; i < ds_list_size(select_list); i ++) {
-	
-			select_list[| i].hp --
-	
-		}
-		
-	}
-	
-}
-
+var max_pop = max_pop_calculate();
+global.r_pop += global.r_pop / 7200;
+global.r_pop = min(max_pop, global.r_pop);
 
 if (global.net_role != net_role_host) { exit }
-attack_timer --
 
+attack_timer --
 if (attack_timer <= 0) {
 	
 	with (obj_unit) {

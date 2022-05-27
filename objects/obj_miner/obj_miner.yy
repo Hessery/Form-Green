@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_miner",
+    "path": "sprites/spr_miner/spr_miner.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_game_object",
-    "path": "objects/obj_game_object/obj_game_object.yy",
+    "name": "obj_building",
+    "path": "objects/obj_building/obj_building.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -31,7 +34,7 @@
     "path": "folders/Objects/Game Objects/Buildings.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_building",
+  "name": "obj_miner",
   "tags": [],
   "resourceType": "GMObject",
 }
